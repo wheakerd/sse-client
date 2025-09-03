@@ -1,0 +1,31 @@
+{
+    "name": "wheakerd/sse-client",
+    "description": "SSE coroutine client based on swoole implementation, suitable for hyperf or super-kernel.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "swoole",
+        "super-kernel",
+        "hyperf",
+        "sse",
+        "server sent event"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wheakerd\\SseClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wheakerd",
+            "email": "wheakerd@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.3",
+        "ext-swoole": "*",
+        "psr/http-message": "^2.0"
+    }
+}
